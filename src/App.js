@@ -5,10 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Código de Conduta Facebook Developers Circle Recife</h1>
+        <h1 style={{ textAlign: "center" }}>
+          Código de Conduta Facebook Developers Circle Recife
+        </h1>
         <section id="objetivo">
           <a style={{ color: "white" }} href="#objetivo">
-            <h2>1. Objetivo</h2>
+            <h2 style={{ textAlign: "start" }}>1. Objetivo</h2>
           </a>
           <h4>
             O objetivo principal do Facebook Developers Circle Recife é o de ser
@@ -26,7 +28,7 @@ function App() {
         </section>
         <section id="comportamento-esperado">
           <a style={{ color: "white" }} href="#comportamento-esperado">
-            <h2>2. Comportamento Esperado</h2>
+            <h2 style={{ textAlign: "start" }}>2. Comportamento Esperado</h2>
           </a>
           <h4>
             Os seguintes comportamentos são esperados e solicitados a todos os
@@ -57,7 +59,7 @@ function App() {
         </section>
         <section id="comportamento-inaceitavel">
           <a style={{ color: "white" }} href="#comportamento-inaceitavel">
-            <h2>3. Comportamento inaceitável</h2>
+            <h2 style={{ textAlign: "start" }}>3. Comportamento inaceitável</h2>
           </a>
           <h4>
             Os seguintes comportamentos são considerados assédio e são
@@ -97,7 +99,9 @@ function App() {
         </section>
         <section id="consequencias">
           <a style={{ color: "white" }} href="#consequencias">
-            <h2>4. Consequências de comportamento inaceitável</h2>
+            <h2 style={{ textAlign: "start" }}>
+              4. Consequências de comportamento inaceitável
+            </h2>
           </a>
           <h4>
             O comportamento inaceitável de qualquer membro da comunidade,
@@ -112,62 +116,68 @@ function App() {
           </h4>
         </section>
         <section id="denuncias">
-          <a style={{ color: "white" }} href="#denuncias">
-            <h2>5. Guia de denúncias</h2>
+          <a className="App-link" href="#denuncias">
+            <h2 style={{ textAlign: "start" }}>5. Guia de denúncias</h2>
           </a>
           <h4>
             Se você está sujeito ou testemunha um comportamento inaceitável, ou
             tem outras preocupações, notifique um organizador da comunidade o
             mais rápido possível. Através dos emails, selecione o email de um
-            dos organizadores em que você se sinta mais confortável para
-            realizar a denúncia:
+            dos líderes em que você se sinta mais confortável para realizar a
+            denúncia:
             <ul>
               <li>
-                Lívia Souza (Developer Circle Leader) -{" "}
-                <a
-                  style={{ color: "white" }}
-                  href="mailto:liviarsouza@gmail.com"
-                >
+                Lívia Souza -{" "}
+                <a className="Email-link" href="mailto:liviarsouza@gmail.com">
                   liviarsouza@gmail.com
                 </a>
               </li>
               <li>
-                Otacilio Maia (Developer Circle Leader) -{" "}
+                Otacilio Maia -{" "}
                 <a
-                  style={{ color: "white" }}
+                  className="Email-link"
                   href="mailto:contato@otaciliomaia.com"
                 >
                   contato@otaciliomaia.com
                 </a>
               </li>
               <li>
-                Paula Soares (Developer Circle Leader) -{" "}
+                Paula Soares -{" "}
                 <a
-                  style={{ color: "white" }}
+                  className="Email-link"
                   href="mailto:soaresdelapaula@gmail.com"
                 >
                   soaresdelapaula@gmail.com
                 </a>
               </li>
               <li>
-                Thallita Albuquerque (Developer Circle Leader) -{" "}
+                Thallita Albuquerque -{" "}
                 <a
-                  style={{ color: "white" }}
+                  className="Email-link"
                   href="mailto:thallitaalbuquerque@gmail.com"
                 >
                   thallitaalbuquerque@gmail.com
                 </a>
               </li>
               <li>
-                Thiago Augusto (Developer Circle Leader) -{" "}
+                Thiago Augusto -{" "}
                 <a
-                  style={{ color: "white" }}
+                  className="Email-link"
                   href="mailto:martinsthiagoaugusto@gmail.com"
                 >
                   martinsthiagoaugusto@gmail.com
                 </a>
               </li>
             </ul>
+            <p>
+              Você tabém pode optar por enviar para{" "}
+              <a
+                className="App-link"
+                href="mailto:liviarsouza@gmail.com,contato@otaciliomaia.com,soaresdelapaula@gmail.com,thallitaalbuquerque@gmail.com,martinsthiagoaugusto@gmail.com"
+              >
+                toda a liderança em cópia
+              </a>
+            </p>
             Além disso, a liderança da comunidade está disponível para ajudar os
             membros da comunidade a se envolverem com a aplicação da lei local
             ou, de outra forma, ajudar aqueles que vivenciam comportamentos
@@ -178,7 +188,7 @@ function App() {
         </section>
         <section id="contestacoes">
           <a style={{ color: "white" }} href="#contestacoes">
-            <h2>6. Contestações</h2>
+            <h2 style={{ textAlign: "start" }}>6. Contestações</h2>
           </a>
           <h4>
             Se você acha que foi acusado falsamente ou injustamente de violar
@@ -189,7 +199,7 @@ function App() {
         </section>
         <section id="consideracoes">
           <a style={{ color: "white" }} href="#consideracoes">
-            <h2>7. Considerações</h2>
+            <h2 style={{ textAlign: "start" }}>7. Considerações</h2>
           </a>
           <h4>
             Esperamos que todos os participantes da comunidade (contribuidores,
@@ -205,7 +215,7 @@ function App() {
         </section>
         <section id="licenca">
           <a style={{ color: "white" }} href="#licenca">
-            <h2>9. Licença e Atribuições</h2>
+            <h2 style={{ textAlign: "start" }}>9. Licença e Atribuições</h2>
           </a>
           <h4>
             Este códido de conduta está licenciado sob a licensa{" "}
