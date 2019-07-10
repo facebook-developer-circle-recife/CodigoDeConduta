@@ -23,7 +23,18 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
+}
+
+@media (max-width: 400px) {
+  .Email-link {
+    color: white;
+    font-size: 80%;
+  }
+}
+
+.Email-link {
+  color: white;
 }
 
 @keyframes App-logo-spin {
