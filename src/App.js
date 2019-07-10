@@ -150,7 +150,7 @@ function App() {
                 </a>
               </li>
               <li>
-                Thalita Albuquerque (Developer Circle Leader) -{" "}
+                Thallita Albuquerque (Developer Circle Leader) -{" "}
                 <a
                   style={{ color: "white" }}
                   href="mailto:thallitaalbuquerque@gmail.com"
@@ -162,9 +162,9 @@ function App() {
                 Thiago Augusto (Developer Circle Leader) -{" "}
                 <a
                   style={{ color: "white" }}
-                  href="mailto:thiagomartinsthiagoaugusto@gmail.com"
+                  href="mailto:martinsthiagoaugusto@gmail.com"
                 >
-                  thiagomartinsthiagoaugusto@gmail.com
+                  martinsthiagoaugusto@gmail.com
                 </a>
               </li>
             </ul>
