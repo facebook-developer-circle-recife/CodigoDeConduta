@@ -123,12 +123,6 @@ function App() {
             realizar a denúncia:
             <ul>
               <li>
-                Caroline Dalmolin (Program Manager) -{" "}
-                <a style={{ color: "white" }} href="mailto:caroldalmo@fb.com">
-                  caroldalmo@fb.com
-                </a>
-              </li>
-              <li>
                 Lívia Souza (Developer Circle Leader) -{" "}
                 <a
                   style={{ color: "white" }}
